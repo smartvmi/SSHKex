@@ -27,11 +27,6 @@ def read_files(key_file_a, key_file_b, key_file_c, key_file_d):
     global data
     global save_iv_a
     global save_iv_b
-    # # #
-    # key_file_a = 'C:/Users/PaulNikolaus/Desktop/file_A.txt'
-    # key_file_b = 'C:/Users/PaulNikolaus/Desktop/file_B.txt'
-    # key_file_c = 'C:/Users/PaulNikolaus/Desktop/file_C.txt'
-    # key_file_d = 'C:/Users/PaulNikolaus/Desktop/file_D.txt'
 
     if key_file_a != '':
         with open(key_file_a, "r") as file:
@@ -46,10 +41,6 @@ def read_files(key_file_a, key_file_b, key_file_c, key_file_d):
 
     save_iv_b = iv_b
     save_iv_a = iv_a
-    # print("Key D: " + key_d)
-    # print("Key C: " + key_c)
-    # print("IV B: " + iv_b)
-    # print("IV A: " + iv_a)
     return
 
 
@@ -286,4 +277,4 @@ def chacha(key1, key2, cipher):
 
 if __name__ == '__main__':
     read_files('', '', '', '')
-    start_decryption('aes-ctr', 'C:/Users/PaulNikolaus/Desktop/tcpdump.txt', 0)
+    start_decryption('aes-ctr', 'C:/Users/XXXXX/Desktop/tcpdump.txt', 0)
