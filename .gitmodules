@@ -1,0 +1,3 @@
+[submodule "libvmtrace"]
+	path = libvmtrace
+	url = git@github.com:libvmtrace/libvmtrace.git
